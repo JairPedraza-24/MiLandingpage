@@ -1,0 +1,119 @@
+@@ -0,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./Imagenpersonal.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Jair Alexis Pedraza Arias</h1>
+            <p class="profile-summary">
+             soy un joven enamorado por la electrónica, con metas orientadas al crecimiento profesional en ingeniería. Busco aportar soluciones innovadoras y eficientes, combinando mi capacidad de resolución de problemas con el deseo de generar impacto positivo en distintos campos laborales
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong> jairpedraza@gmail.com</p>
+                <p><strong>Teléfono:</strong> +573203624484</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                 <li>
+                    <h4>SENA</h4>
+                    <p>APLICACIÓN DE LA ELECTRÓNICA Y ROBOTICA EN PROYECTOS DE CIENCIA, TECNOLOGÍA E INNOVACIÓN | 2021</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Servicio al cliente | SERVIELECTRONICA</h4>
+                    <p>2023 - Presente | Cerrar ventas, inventariar y ofrecer productos</p>
+                </li>
+                <li>
+                    <h4>Ayudante técnico | SERVIELECTRONICA</h4>
+                    <p>2024 - Presente | Solución de problemas a equipos de sonido y televisores</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Diagnóstico y reparación básica de equipos de sonido</li>
+                    <li>Soldadura electrónica básica</li>
+                    <li>Ensamblaje y reemplazo de piezas electrónicas</li>
+                    <li>Manejo de herramientas y equipos de medición</li>
+                    <li>Conocimiento básico de circuitos electrónicos</li>
+                    <li>Capacidad para explicar diagnósticos y soluciones de manera sencilla</li>
+                    <li>Apoyo a técnicos principales</li>
+                    <li>Explicación práctica del funcionamiento del equipo al cliente</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Adaptabilidad</li>
+                    <li>Aprendizaje Rápido</li>
+                    <li>Comunicación Efectiva</li>
+                    <li>Empatía y paciencia</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <a href="https://www.facebook.com/jair.pedraza.3956" target="_blank" class="linktree-link">Facebook</a>
+            <a href="https://www.instagram.com/jair.alexis__24/" target="_blank" class="linktree-link">Instagram</a>
+            <a href="https://www.tiktok.com/@jairpedraza2410" target="_blank" class="linktree-link">TikTok</a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Jair Pedraza. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
