@@ -1,4 +1,3 @@
-@@ -0,0 +1,26 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Selecciona todos los enlaces que tienen un hash (#) en su href
     const navLinks = document.querySelectorAll('a[href^="#"]');
