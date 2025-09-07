@@ -1,7 +1,7 @@
 /* Estilos generales */
 :root {
-    --primary-color: #4ae48f;
-    --secondary-color: #2c5031;
+    --primary-color: #2f8f3f;
+    --secondary-color: #1b6925;
     --text-color: #333;
     --background-color: #f4f4f4;
     --light-gray: #ecf0f1;
@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: "inter", sans-serif;
+    font-family: "yellowtail", sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -51,12 +51,12 @@ body {
 
 /* Estilos de secciones */
 .section {
-    padding: 80px 20px;
+    padding: 75px 30px;
     text-align: center;
 }
 
 .profile-section {
-    padding-top: 150px; /* Espacio para el header fijo */
+    padding-top: 170px; /* Espacio para el header fijo */
     background-color: rgb(255, 255, 255);
 }
 
@@ -72,7 +72,7 @@ body {
     content: '';
     display: block;
     width: 50%;
-    height: 4px;
+    height: 5px;
     background: var(--primary-color);
     margin: 10px auto 0;
 }
@@ -150,7 +150,7 @@ body {
 }
 
 .linktree-link:hover {
-    background-color: #29b982;
+    background-color: #29b948;
 }
 
 /* Contact Form */
@@ -182,7 +182,7 @@ body {
 }
 
 .submit-button:hover {
-    background-color: #4bc080;
+    background-color: #349e31;
 }
 
 /* Footer */
@@ -201,11 +201,11 @@ body {
     }
 
     .section {
-        padding: 60px 10px;
+        padding: 70px 15px;
     }
 
     .profile-section {
-        padding-top: 120px;
+        padding-top: 130px;
     }
 
     .list li {
