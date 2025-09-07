@@ -51,12 +51,12 @@ body {
 
 /* Estilos de secciones */
 .section {
-    padding: 75px 30px;
+    padding: 90px 40px;
     text-align: center;
 }
 
 .profile-section {
-    padding-top: 170px; /* Espacio para el header fijo */
+    padding-top: 180px; /* Espacio para el header fijo */
     background-color: rgb(255, 255, 255);
 }
 
@@ -72,9 +72,9 @@ body {
     content: '';
     display: block;
     width: 50%;
-    height: 5px;
+    height: 7px;
     background: var(--primary-color);
-    margin: 10px auto 0;
+    margin: 12px auto 0;
 }
 
 .profile-photo {
@@ -201,11 +201,11 @@ body {
     }
 
     .section {
-        padding: 70px 15px;
+        padding: 80px 20px;
     }
 
     .profile-section {
-        padding-top: 130px;
+        padding-top: 140px;
     }
 
     .list li {
